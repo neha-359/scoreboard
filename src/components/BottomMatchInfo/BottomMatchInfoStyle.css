@@ -1,0 +1,63 @@
+.scoreboard__bottomMatchInfo {
+  padding: 2px 14px;
+  background-color: #eaeaea;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border-color: #abaeb1; */
+  border: 1px solid #abaeb1;
+  margin-top: 1px;
+}
+
+.scoreboard__bottomMatchInfo__name {
+  font-size: 9px;
+  line-height: 10px;
+  color: #242430;
+  font-weight: 700;
+  /* border-right: 1px solid #383838; */
+  /* padding-right: 2px; */
+
+  max-width: 121px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scoreboard__bottomMatchInfo--rightBorder {
+  height: 10px;
+  width: 1px;
+  background-color: #383838;
+}
+
+.scoreboard__bottomMatchInfo__date {
+  font-size: 6px;
+  line-height: 10px;
+  color: #242430;
+  font-weight: 400;
+  /* padding-left: 2px; */
+  /* border-right: 1px solid #383838; */
+  /* padding-right: 6px; */
+}
+
+.scoreboard__bottomMatchInfo__venueContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.scoreboard__bottomMatchInfo__address {
+  font-size: 6px;
+  line-height: 10px;
+  color: #242430;
+  font-weight: 400;
+
+  max-width: 125px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 4px;
+}
+/* 
+.scoreboard__bottomMatchInfo__weatherLogo{
+} */

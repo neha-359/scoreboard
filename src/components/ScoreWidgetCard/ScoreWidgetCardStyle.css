@@ -1,0 +1,37 @@
+.scoreboard {
+  /* max-width: 345px; */
+  /* height: 240px; */
+   /* padding: 2px; */
+    /* margin-left:12px; */
+    /* margin-top: 12px; */
+  margin-top: 12px;
+  /* height: 245px;
+  max-width: 350px; */
+  /* height: 243px;
+    max-width: 349px; */
+
+ 
+}
+.scoreboard__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ccd4dd;
+  padding: 2px;
+  /* max-height: 245px; */
+  min-height: 245px;
+  max-width: 350px;
+  /* margin-left:12px; */
+}
+.scoreboard__card__content {
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  /* margin-bottom: 2px; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.scoreboard__card__footer__content {
+  margin:1px 0;
+}

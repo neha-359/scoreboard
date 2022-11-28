@@ -1,0 +1,322 @@
+.scoreboard__teamscoreboard {
+    padding: 2px 0;
+    text-align: center;
+    /* margin-top: 5px; */
+    /* margin: 5px 0px 4px; */
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.scoreboard__teamscoreboard__title {
+    font-size: 19px;
+    line-height: 22px;
+    color: #383838;
+    font-weight: 400;
+}
+
+.scoreboard__teamscoreboard__subTitle {
+    font-size: 36px;
+    line-height: 43px;
+    color: #383838;
+    font-weight: 700;
+    margin: 0;
+}
+
+.scoreboard__teamscoreboard__timeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:6px 0;
+}
+.scoreboard__teamscoreboard__date,
+.scoreboard__teamscoreboard__timezone {
+    font-size: 10px;
+    line-height: 12px;
+    color: #383838;
+}
+.scoreboard__teamscoreboard__countdown{
+    flex-grow: 1;
+    margin-top: 8px;
+}
+
+/* .scoreboard__teamscoreboard__border{
+    border-right: 1px solid;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 5px;
+   
+} */
+
+.scoreboard__teamscoreboard__date {
+    border-right: 1px solid #383838;
+    padding-right: 4px;
+
+}
+
+.scoreboard__teamscoreboard__timezone {
+    padding-left: 4px;
+}
+
+
+/* match started */
+
+.scoreboard__teamscoreboard__matchStarted{
+    margin: 9px 0;
+}
+.scoreboard__teamscoreboard__matchStarted_title {
+    font-size: 28px;
+    line-height: 34px;
+    color: #383838;
+    font-weight: 700;
+    margin: 0;
+    /* padding:6px 0; */
+    padding: 4px 0 8px;
+}
+
+.scoreboard__teamscoreboard__matchStarted_subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: #383838;
+    font-weight: 400;
+        /* padding-top: 2px;
+        padding-bottom: 8px; */
+}
+
+
+
+
+
+/* running */
+
+.scoreboard__teamscoreboard__scores {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+.scoreboard__teamscoreboard__batsman,
+.scoreboard__teamscoreboard__bowler {
+    width: 50%;
+    padding-left: 2px;
+    /* padding: 0 10px; */
+    /* text-align: left; */
+}
+
+.scoreboard__teamscoreboard__batsman__info {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+
+    align-items: baseline;
+    /* padding: 5px; */
+    padding:4px 10px;
+    
+
+
+}
+
+.scoreboard__teamscoreboard__batsman__info--bating {
+    background-color: #d8d6d7;
+    border-radius: 12px;
+    margin: 3px 0;
+    /* padding:4px; */
+    padding:4px 10px;
+
+}
+
+.scoreboard__teamscoreboard__player__name.scoreboard__teamscoreboard__player__name--bowler {
+    padding-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* width: 80%; */
+    /* margin:4px 0  */
+}
+
+/* .scoreboard__teamscoreboard__batsman__info.bating{
+    background-color: #d8d6d7;
+    border-radius: 12px; */
+/* } */
+
+
+.scoreboard__teamscoreboard__bowler__info {
+    display: flex;
+
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 3px 0;
+    /* width:100% ; */
+}
+
+.scoreboard__teamscoreboard__player__name {
+    font-size: 14px;
+    line-height: 16px;
+    color: #383838;
+    margin: 0;
+    /* padding-left: 4px; */
+    text-align: left;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* flex-grow: 1; */
+}
+
+.scoreboard__teamscoreboard__player__score {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383838;
+    /* flex-grow: 1; */
+
+}
+
+.scoreboard__teamscoreboard__player__bowlerscore {
+    font-size: 12px;
+    line-height: 14px;
+    color: #383838;
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    width:40px ;
+}
+
+.scoreboard__teamscoreboard__player__bowlerscore__avg {
+    font-size: 8px;
+    line-height: 10px;
+    color: #383838;
+    margin: 0;
+    padding-left: 4px;
+
+
+}
+
+.scoreboard__teamscoreboard__player__CRR {
+    margin: 0;
+    font-size: 11px;
+    line-height: 14px;
+    color: #383838;
+    text-align: left;
+    /* padding-left: 10px; */
+}
+
+.scoreboard__teamscoreboard__player__CRRScore {
+    margin: 0;
+    font-size: 11px;
+    line-height: 14px;
+    color: #383838;
+    padding-right: 2px;
+    /* flex-grow: 1; */
+
+}
+
+.scoreboard__teamscoreboard__bowler__score {
+    background-color: #FFF;
+    /* padding: 2px 4px; */
+    border-radius: 20px;
+    /* margin-right: 2px; */
+    font-size: 13px;
+    line-height: 16px;
+    color: #383838;
+    height: 16px;
+    width: 16px;
+    padding:2px;
+    border: 1px solid #dfdee0;
+    margin:2px
+}
+
+/* .scoreboard__teamscoreboard__bowler__speedSection { */
+    /* margin: 8px 0; */
+/* } */
+
+.scoreboard__teamscoreboard__bowler__speedSection__speed {
+    font-size: 10px;
+    line-height: 12px;
+    color: #383838;
+    text-align: left;
+    /* padding: 5px */
+}
+
+.scoreboard__teamscoreboard__bowler__info__scoreBoard {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    padding-left: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.score__wd {
+    font-size: 8px;
+    line-height: 8px;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.scoreboard__teamscoreboard__bowler--wicket{
+    color: #f33e89;
+    text-transform: capitalize;
+}
+
+.scoreboard__teamscoreboard__bowler--running {
+    background-color: #dfdee0;
+    /* height: 15px;
+    width: 10px; */
+}
+
+.scoreboard__teamscoreboard__bowler--completed {
+    background-color: #dfdee0;
+
+}
+
+/* break */
+.scoreboard__teamscoreboard_breakTime{
+    margin:9px 0;
+}
+.scoreboard__teamscoreboard_breakTime_title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+    margin: 0;
+
+}
+
+.scoreboard__teamscoreboard_breakTime_timezone {
+    font-size: 36px;
+    line-height: 43px;
+    color: #383838;
+    margin: 0;
+    padding-top: 2px;
+}
+
+/* completed */
+.scoreboard__teamscoreboard__completed{
+    margin:16px 0;
+}
+.scoreboard__teamscoreboard__completed__title {
+    font-size: 28px;
+    line-height: 34px;
+    color: #383838;
+    font-weight: 700;
+    padding:5px 0;
+}
+
+
+#content{
+    overflow: hidden;
+    width:100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    }

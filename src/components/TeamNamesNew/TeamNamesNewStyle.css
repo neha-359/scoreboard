@@ -1,0 +1,148 @@
+.scoreboard__teamName {
+  margin: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+
+  align-items: center;
+  /* border-radius: 12px;
+    padding: 6px 10px;
+    box-shadow: -2px 3px #a5a5a5;  */
+}
+.scoreboard__teamName--activeTeam {
+  box-shadow: -2px 3px #a5a5a5;
+  background-color: #f33e89;
+  border-radius: 12px;
+  padding: 6px 10px;
+}
+
+.scoreboard__teamNames__teamA,
+.scoreboard__teamNames__teamB {
+  display: flex;
+  width: 45%;
+}
+.scoreboard__teamNames--spaceBetween {
+  justify-content: space-between;
+}
+.scoreboard__teamNames--center {
+  justify-content: center;
+}
+
+.scoreboard__teamName__versus {
+  margin: 0 5px;
+  font-size: 7px;
+  line-height: 8px;
+  color: #f33e89;
+  font-weight: 700;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.scoreboard__teamNames__PlayerName {
+  font-size: 31px;
+  line-height: 37px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  /* border-radius: 12px; */
+  /* background-color: #f33e89; */
+  /* box-shadow: -2px 3px #a5a5a5; */
+}
+
+.scoreboard__teamNames__scoreCount {
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.scoreboard__teamNames__overCount {
+  font-size: 9px;
+  line-height: 11px;
+  color: #ffffff;
+  padding-left: 4px;
+}
+
+.scoreboard__teamName--relative {
+  position: relative;
+}
+.scoreboard__teamNames__teamA--batting {
+  background-color: #f33e89;
+  box-shadow: -2px 3px #a5a5a5;
+  position: absolute;
+  left: 0;
+  width: 45%;
+  align-items: baseline;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.scoreboard__teamNames__teamB--batting {
+  background-color: #f33e89;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding-left: 0;
+  height: 45px;
+  padding: 2px 10px;
+  border-radius: 12px;
+  box-shadow: -2px 3px #a5a5a5;
+  justify-content: space-evenly;
+}
+
+.scoreboard__teamNames__teamB--bowling {
+  background-color: #d8d6d7;
+  align-items: baseline;
+  /* padding: 2px 10px; */
+  border-radius: 12px;
+  box-shadow: -2px 3px #a5a5a5;
+  /* height: 42px; */
+  height: 45px;
+  width: 45%;
+  margin: 0 0 0 auto;
+  padding-left: 50px;
+  justify-content: space-around;
+}
+
+.scoreboard__teamNames__teamA--bowling {
+  background-color: #d8d6d7;
+  padding-right: 30px;
+  padding: 2px 10px;
+  border-radius: 12px;
+  box-shadow: -2px 3px #a5a5a5;
+  width: 45%;
+  align-items: baseline;
+  padding: 2px 30px 2px 10px;
+}
+
+/* .scoreboard__teamNames__team--batting {
+  background-color: #f33e89;
+  box-shadow: -2px 3px #a5a5a5;
+  padding: 2px 10px;
+  border-radius: 12px;
+} */
+
+/* .scoreboard__teamNames__team--bowling {
+    background-color: #d8d6d7;
+    box-shadow: -2px 3px #a5a5a5;
+    padding: 2px 10px;
+    border-radius: 12px;
+  } */
+  
+
+.scoreboard__teamNames__PlayerName--bowling {
+  color: #383838;
+}
+
+.scoreboard__teamNames__remainsBatting {
+  font-size: 10px;
+  line-height: 12px;
+  color: #383838;
+  align-self: center;
+  text-transform: capitalize;
+}
+
+.scoreboard__teamNames__remainsBatting.--batting {
+  color: #fff;
+}

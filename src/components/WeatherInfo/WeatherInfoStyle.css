@@ -1,0 +1,39 @@
+.scoreboard__watherInfo{
+    display: flex;
+    justify-content: space-between;
+    padding:2px 14px;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 1px;
+    border:1px solid #abaeb1;
+}
+
+.scroboard__watherInfo__list{
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* background-color: red; */
+    
+}
+
+.scroboard__watherInfo__list__name{
+    font-size: 14px;
+line-height: 17px;
+color: #ffffff;
+padding-left: 6px;
+/* align-items: center;     */
+}
+
+.scroboard__watherInfo__list__temp{
+    font-size: 12px;
+line-height: 14px;
+color: #ffffff;
+padding-left: 6px;
+}
+
+.scroboard__watherInfo__list__suntemp{
+    font-size: 12px;
+    line-height: 14px;
+}

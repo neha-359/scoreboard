@@ -1,0 +1,117 @@
+{
+    "innings": 1,
+    "pre_defined_event": [
+    {
+        "event": "wicket",
+        "event_type": "catch",
+        "event_value":
+        {
+            "player": 1
+        },
+        "actor": "Dewald Brevis",
+        "context": "bowler"
+    },
+    {
+        "event": "boundary",
+        "event_type": "four",
+        "event_value":
+        {
+            "player": 5,
+            "team": 16
+        },
+        "actor": "RR Pant",
+        "context": "batsman"
+       
+    },
+    {
+        "event": "over_interval",
+        "event_type": "start",
+        "event_value":
+        {
+            "player": 5,
+            "team": 16
+        },
+        "actor": "RR Pant",
+        "context": "batsman"
+       
+
+    } ],
+    "match_info":
+    {
+        "team_names": [
+            "Western Province",
+            "Titans"
+        ],
+        "venue": "SGPCG Stadium, Port Elizabeth",
+        "match_no": "Match 21",
+        "team_codes": [
+            "WPR",
+            "TTN"
+        ],
+        "league_title": "CSA T20 Challenge 2022",
+        "match_status": "started"
+    },
+    "team_scores": [
+    {
+        "WPR":
+        {
+            "innings_status": "ongoing",
+            "score": 109,
+            "overs": "15.3",
+            "wickets": 4
+        }
+    },
+    {
+        "TTN":
+        {
+            "innings_status": "yettobat"
+        }
+    }],
+    "commentary": "Dewald Brevis to George Linde: Wicket!, Caught by Theunis de Bruyn.No runs.",
+    "runs": 109,
+    "batting_team": "Western Province",
+    "bowling_team": "Titans",
+    "batsman": "George Linde",
+    "non_striker": "DJ Vilas",
+    "bowler": "Dewald Brevis",
+    "team_ball_runs": 0,
+    "batsman_runs": 3,
+    "crr": "7.03",
+    "batsman_balls_faced": 5,
+    "nonstriker_runs": 48,
+    "nonstriker_balls_faced": 35,
+    "recent_overs_str": [
+        16,
+        [
+            "b4",
+            "r1",
+            "w",
+            "e1,wd",
+            "e5,nb",
+            "b4;e1,nb",
+            "w",
+            "w;e1,wd",
+            "r1;w"
+
+        ]
+    ],
+    "bowler_total_overs": "1.3",
+    "bowler_total_runs": 10,
+    "bowler_total_wickets": 1,
+    "ballscore": "dot",
+    "wicket":
+    {
+        "kind": "caught",
+        "player_out": "George Linde",
+        "is_bowler_wicket": 1
+    },
+    "match_id": "csat20_2022_g21",
+    "id": "02bcaf58- 5e0f - 4e11 - 8b1b - 9acf184380e3",
+     "weather_info":
+    {
+        "temperature": "17.2C",
+        "humidity": "87%",
+        "wind": "14km/hr",
+        "rain": "0%"
+    }
+}
